@@ -6,26 +6,31 @@
 #header {
     top: 75px;
     height: 100px;
-    
-
 }
 
 #nav {
     top: 177px;
     height: 35px;
-
 }
 
 #content {
     top: 214px;
     height: 400px;
-
 }
 
 #footer {
     top: 616px;
     height: 100px;
+}
 
+/*
+    This section is where image formatting info is kept.
+*/
+
+#logo  {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 /*
@@ -34,7 +39,7 @@
 
 .construct {
     position: absolute;
-    background-color: #328CC1;
+    background-color: #0B3C5D;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: white;

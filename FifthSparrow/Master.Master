@@ -12,15 +12,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="header" class="construct">Header info</div>
+        <div id="header" class="construct">
+            <img id="logo" src="Images/sparrowLogo.jpg" alt="Sparrow Logo Image" />
+
+
+        </div>
         <div id="nav" class="construct">Navigation</div>
-        <div id="content" class="construct">Body</div>
-        <div id="footer" class="construct">Footer info</div>
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div id="content" class="construct">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+
+        </div>
+        <div id="footer" class="construct">Footer info</div>
+   
     </form>
 </body>
 </html>
