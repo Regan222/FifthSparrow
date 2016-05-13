@@ -1,24 +1,43 @@
 ﻿
 /* 
-    This section is specifically for positioning of the main elements of the page
+    This section is for things that the divs don't share
 */
 
 #header {
-
+    top: 75px;
+    height: 100px;
+    
 
 }
 
 #nav {
-
+    top: 177px;
+    height: 35px;
 
 }
 
 #content {
-
+    top: 214px;
+    height: 400px;
 
 }
 
 #footer {
+    top: 616px;
+    height: 100px;
 
+}
 
+/*
+    This section is for all the parameters that the different divs have in common
+*/
+
+.construct {
+    position: absolute;
+    background-color: #328CC1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    left: 75px;
+    width: 800px;
 }
